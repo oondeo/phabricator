@@ -15,7 +15,7 @@ RUN addgroup -S wwwgrp-phabricator && \
             python \
             php7-fpm \
             php7-mbstring \
-            php7-mysql \
+            php7-mysqli \
             php7-curl \
             php7-pcntl \
             php7-gd \
