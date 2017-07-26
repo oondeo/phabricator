@@ -12,6 +12,7 @@ RUN addgroup -S wwwgrp-phabricator && \
             git \
             nginx \
             nodejs \
+            nodejs-npm \
             python \
             php7-fpm \
             php7-mbstring \
@@ -30,6 +31,7 @@ RUN addgroup -S wwwgrp-phabricator && \
             php7-sockets \
             php7-xmlwriter  \
             php7-opcache \
+            php7-apcu \
             which \
             py3-pygments \
             subversion \
