@@ -13,7 +13,7 @@ git clone --depth=1 https://github.com/PHPOffice/PHPExcel.git /srv/phabricator/P
 cd /
 chown -R git:wwwgrp-phabricator /srv/phabricator
 # Clone Let's Encrypt
-git clone https://github.com/letsencrypt/letsencrypt /srv/letsencrypt
-cd /srv/letsencrypt
-./letsencrypt-auto-source/letsencrypt-auto --help
-cd /
+# git clone https://github.com/letsencrypt/letsencrypt /srv/letsencrypt
+# cd /srv/letsencrypt
+# ./letsencrypt-auto-source/letsencrypt-auto --help
+# cd /
