@@ -36,7 +36,7 @@ mkdir /etc/phabricator-ssh
 mv sshd_config.phabricator /etc/phabricator-ssh/sshd_config.phabricator.template
 mv phabricator-ssh-hook.sh /etc/phabricator-ssh/phabricator-ssh-hook.sh.template
 mv bake /bake
-mkdir /opt/iomonitor
+mkdir -p /opt/iomonitor
 mv iomonitor /opt/iomonitor
 rm setup.sh
 cd /
