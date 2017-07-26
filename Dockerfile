@@ -29,7 +29,7 @@ RUN addgroup -S wwwgrp-phabricator && \
             php7-zip \
             php7-sockets \
             php7-xmlwriter  \
-            php7-opcache 
+            php7-opcache \
             which \
             py3-pygments \
             subversion \
