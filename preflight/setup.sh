@@ -4,8 +4,7 @@ set -e
 set -x
 
 # Move preflight files to their locations
-mkdir /app
-mkdir /app/startup
+mkdir -p /app/startup
 cd /preflight
 
 mv nginx.conf /app/nginx.conf
