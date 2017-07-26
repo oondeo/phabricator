@@ -6,6 +6,7 @@ RUN addgroup -S wwwgrp-phabricator && \
     adduser -S -G wwwgrp-phabricator git && \
     apk add --no-cache \ # install plugin dependencies
             'su-exec>=0.2' \
+            openssh \
             bash \
             libc6-compat \
             git \
