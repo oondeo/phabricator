@@ -4,7 +4,7 @@ MAINTAINER Lyndon <snakeliwei@gmail.com>
 RUN addgroup -S wwwgrp-phabricator && \
     adduser -S -G wwwgrp-phabricator nginx && \
     adduser -S -G wwwgrp-phabricator git && \
-    apk add --no-cache \ # install plugin dependencies
+    apk add --no-cache \
             'su-exec>=0.2' \
             openssh \
             bash \
