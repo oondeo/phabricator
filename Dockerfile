@@ -1,5 +1,6 @@
 FROM alpine:3.6
 MAINTAINER Lyndon <snakeliwei@gmail.com>
+
 RUN addgroup -S wwwgrp-phabricator && \
     adduser -S -G wwwgrp-phabricator nginx && \
     adduser -S -G wwwgrp-phabricator git && \
@@ -34,7 +35,8 @@ RUN addgroup -S wwwgrp-phabricator && \
             mercurial \
             imagemagick \
             postfix \
-            glibc-locale \
+            mariadb-client \
+            vim \
             supervisor && \
      npm i -g ws 
     
