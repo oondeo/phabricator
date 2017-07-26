@@ -2,8 +2,7 @@ FROM alpine:3.6
 MAINTAINER Lyndon <snakeliwei@gmail.com>
 
 RUN addgroup -S wwwgrp-phabricator && \
-    adduser -S -G wwwgrp-phabricator nginx && \
-    adduser -S -G wwwgrp-phabricator git && \
+    adduser -S -G wwwgrp-phabricator PHABRICATOR && \
     apk add --no-cache \
             'su-exec>=0.2' \
             openssh \
