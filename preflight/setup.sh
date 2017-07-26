@@ -26,8 +26,8 @@ mv run-postfix.sh /app/run-postfix.sh
 mv 10-boot-conf /app/startup/10-boot-conf
 mv 15-https-conf /app/startup/15-https-conf
 
-mv php-fpm.conf /etc/php7/fpm/php-fpm.conf.template
-mv php.ini /etc/php7/fpm/php.ini
+mv php-fpm.conf /etc/php7/php-fpm.conf.template
+mv php.ini /etc/php7/php.ini
 
 mv supervisord.conf /app/supervisord.conf
 mv init.sh /app/init.sh
@@ -44,8 +44,8 @@ ls /preflight
 rmdir /preflight # This should now be empty; it's an error if it's not.
 
 # Install PHPExcel
-echo '' >> /etc/php7/fpm/php-fpm.conf
-echo 'php_value[include_path] = "/srv/phabricator/PHPExcel/Classes"' >> /etc/php7/fpm/php-fpm.conf
+echo '' >> /etc/php7/php-fpm.conf
+echo 'php_value[include_path] = "/srv/phabricator/PHPExcel/Classes"' >> /etc/php7/php-fpm.conf
 
 # Move the default SSH to port 24
 echo "" >> /etc/ssh/sshd_config
