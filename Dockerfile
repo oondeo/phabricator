@@ -13,6 +13,7 @@ RUN addgroup -S wwwgrp-phabricator && \
             nginx \
             nodejs \
             nodejs-npm \
+            php7 \
             php7-fpm \
             php7-mbstring \
             php7-mysqli \
