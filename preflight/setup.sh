@@ -20,7 +20,7 @@ mv run-aphlict.sh /app/run-aphlict.sh
 mv run-iomonitor.sh /app/run-iomonitor.sh
 mv run-postfix.sh /app/run-postfix.sh
 
-# mv letsencrypt.sh /app/letsencrypt.sh
+mv letsencrypt.sh /app/letsencrypt.sh
 
 mv 10-boot-conf /app/startup/10-boot-conf
 mv 15-https-conf /app/startup/15-https-conf
