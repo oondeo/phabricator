@@ -11,7 +11,7 @@ git clone --depth=1 https://github.com/phacility/arcanist.git /srv/phabricator/a
 git clone --depth=1 https://github.com/phacility/phabricator.git /srv/phabricator/phabricator
 git clone --depth=1 https://github.com/PHPOffice/PHPExcel.git /srv/phabricator/PHPExcel
 cd /
-chown -R git:wwwgrp-phabricator /srv/phabricator
+chown -R PHABRICATOR:wwwgrp-phabricator /srv/phabricator
 # Clone Let's Encrypt
 # git clone https://github.com/letsencrypt/letsencrypt /srv/letsencrypt
 # cd /srv/letsencrypt
